@@ -35,7 +35,7 @@ describe('Search Pokemon in the option pokemon', () => {
 
 })
 
-describe('Search Pokemon in the opcion ‘Search’', () => {
+describe('Search Pokemon in the option ‘Search’', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/')
