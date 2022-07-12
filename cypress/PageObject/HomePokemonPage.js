@@ -12,26 +12,16 @@ ResultAbility: () => cy.get('b'),
 MsjPokemonNoExist: () => cy.get(':nth-child(1) > em')
     }
 
-    //Historia 1
-    ClicTapPokemon(){
-        this.element.TapPokemon().click();
-    }
+    //HU1
     SearchPokemon(enterpokemon){
         this.element.SearchInput().type(enterpokemon)
     }
     SelectPokemon(){
         this.element.ResultPokemon().click();
-    }
-    VerifyMsjNoExist(){
-        this.element.MsjPokemonNoExist().should('contain','No exact match found. The closest matches alphabetically are:')
-    }    
+    }   
     
-
-    //Historia 2
-    ClicTapMoves(){
-        this.element.TapMoves().click();
-    }
-    SearchMovesability(EnterMoves){
+    //HU2
+    SearchMoves(EnterMoves){
         this.element.SearchInput().type(EnterMoves)
     }
     SelectMoves(){
@@ -39,22 +29,19 @@ MsjPokemonNoExist: () => cy.get(':nth-child(1) > em')
     
     }
     
-    //Historia 3
-
-    ClicTapGeneralBtn(){
-        this.element.TapGeneral().click();
-    }
-    Searchability(Enterability){
+    //HU3
+    SearchAbility(Enterability){
         this.element.SearchInput().type(Enterability)
     }
     SelectAbility(){
         this.element.ResultAbility().click();
     
     }
-    
 
- 
-  
+    VerifyMsjNoExist(){
+        this.element.MsjPokemonNoExist().should('contain','No exact match found. The closest matches alphabetically are:')
+    } 
+    
 
 }
 module.exports = new HomePokemonPage()

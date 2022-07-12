@@ -13,7 +13,7 @@ describe('Search Moves in the option Shearch', () => {
 
     it(test.testCase+'-'+test.moves, ()=>{
       
-      HomePokemonPage.SearchMovesability(test.moves)
+      HomePokemonPage.SearchMoves(test.moves)
       HomePokemonPage.SelectMoves();
       DetailMoves.ValidateAccuracy(test.Accuracy)
       DetailMoves.ValidatePP(test.PP)
@@ -22,7 +22,7 @@ describe('Search Moves in the option Shearch', () => {
   })
   it('Search for a non-existing move - lalalala', ()=>{
 
-    HomePokemonPage.SearchMovesability('lalalala')
+    HomePokemonPage.SearchMoves('lalalala')
     HomePokemonPage.VerifyMsjNoExist()
 
 

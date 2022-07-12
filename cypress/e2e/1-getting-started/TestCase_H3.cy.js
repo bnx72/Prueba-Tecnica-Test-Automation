@@ -12,8 +12,8 @@ describe('Search Ability protean in the option Shearch', () => {
   DTH3.forEach(test =>{
 
   it('Verify that '+test.pokemon.name+' is displayed in the result', ()=>{
-    HomePokemonPage.ClicTapGeneralBtn();
-    HomePokemonPage.Searchability('Protean');
+    
+    HomePokemonPage.SearchAbility('Protean');
     HomePokemonPage.SelectAbility();
     DetailAbility.ValidatePokemosByAbilities(test.pokemon.name)
     
@@ -32,7 +32,7 @@ describe('Search Ability protean in the option Pokemon', () => {
 
   it('Verify that '+test.pokemon.name+' is displayed in the result', ()=>{
     
-    HomePokemonPage.Searchability('Protean');
+    HomePokemonPage.SearchAbility('Protean');
     HomePokemonPage.SelectAbility();
     DetailAbility.ValidatePokemosByAbilities(test.pokemon.name)
     
