@@ -27,7 +27,6 @@ describe('Search Pokemon in the option pokemon', () => {
   } )
   it('Search for a non-existing Pokemon - changoleon', ()=>{
 
-    HomePokemonPage.ClicTapPokemon();
     HomePokemonPage.SearchPokemon('changoleon')
     HomePokemonPage.VerifyMsjNoExist()
 

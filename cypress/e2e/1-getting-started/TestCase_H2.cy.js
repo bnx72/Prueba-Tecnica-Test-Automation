@@ -29,7 +29,7 @@ describe('Search Moves in the option Shearch', () => {
   })
 
 })
-describe('Test Execution Pokemonshowdown', () => {
+describe('Search Moves in the option Moves', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/moves/')
@@ -39,7 +39,7 @@ describe('Test Execution Pokemonshowdown', () => {
 
     it(test.testCase+'-'+test.moves, ()=>{
   
-      HomePokemonPage.SearchMovesability(test.moves)
+      HomePokemonPage.SearchMoves(test.moves)
       HomePokemonPage.SelectMoves();
       DetailMoves.ValidateAccuracy(test.Accuracy)
       DetailMoves.ValidatePP(test.PP)
@@ -49,7 +49,7 @@ describe('Test Execution Pokemonshowdown', () => {
   it('Search for a non-existing move - lalalala', ()=>{
 
     
-    HomePokemonPage.SearchMovesability('lalalala')
+    HomePokemonPage.SearchMoves('lalalala')
     HomePokemonPage.VerifyMsjNoExist()
 
 
