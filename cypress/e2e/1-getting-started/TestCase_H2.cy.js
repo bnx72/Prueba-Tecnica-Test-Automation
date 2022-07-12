@@ -3,7 +3,7 @@ import DetailMoves from '../../PageObject/DetailMoves'
 
 const DTH2 = require('../../fixtures/DataTestH2.json')
 
-describe('Search Moves in the opcion Shearch', () => {
+describe('Search Moves in the option Shearch', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/')

@@ -3,7 +3,7 @@ import PokemonProfile from '../../PageObject/PokemonProfile'
 
 const DTH1 = require('../../fixtures/DataTestH1.json')
 
-describe('Search Pokemon in the opcion pokemon', () => {
+describe('Search Pokemon in the option pokemon', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/pokemon/')

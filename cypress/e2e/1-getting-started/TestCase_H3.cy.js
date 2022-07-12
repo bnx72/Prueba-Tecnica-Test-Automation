@@ -3,7 +3,7 @@ import DetailAbility from '../../PageObject/DetailAbility'
 
 const DTH3 = require('../../fixtures/DataTestH3')
 
-describe('Search Ability protean in the opcion Shearch', () => {
+describe('Search Ability protean in the option Shearch', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/')
@@ -22,7 +22,7 @@ describe('Search Ability protean in the opcion Shearch', () => {
 
 })
 
-describe('Search Ability protean in the opcion Pokemon', () => {
+describe('Search Ability protean in the option Pokemon', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/pokemon')
@@ -40,7 +40,7 @@ describe('Search Ability protean in the opcion Pokemon', () => {
 })
 })
 
-describe('Search Ability protean in the opcion Pokemon', () => {
+describe('Search Ability protean in the option Pokemon', () => {
   beforeEach(() => {
 
     cy.visit('https://dex.pokemonshowdown.com/moves')
