@@ -1,0 +1,10 @@
+[
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Pikachu",
+            "url": "https://pokeapi.co/api/v2/pokemon/25/"
+        },
+        "slot": 1
+    }
+]

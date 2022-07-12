@@ -1,0 +1,282 @@
+[
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Pikachu",
+            "url": "https://pokeapi.co/api/v2/pokemon/25/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Raichu",
+            "url": "https://pokeapi.co/api/v2/pokemon/26/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Voltorb",
+            "url": "https://pokeapi.co/api/v2/pokemon/100/"
+        },
+        "slot": 2
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Electrode",
+            "url": "https://pokeapi.co/api/v2/pokemon/101/"
+        },
+        "slot": 2
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "Electabuzz",
+            "url": "https://pokeapi.co/api/v2/pokemon/125/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": true,
+        "pokemon": {
+            "name": "zapdos",
+            "url": "https://pokeapi.co/api/v2/pokemon/145/"
+        },
+        "slot": 3
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pichu",
+            "url": "https://pokeapi.co/api/v2/pokemon/172/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "mareep",
+            "url": "https://pokeapi.co/api/v2/pokemon/179/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "flaaffy",
+            "url": "https://pokeapi.co/api/v2/pokemon/180/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "ampharos",
+            "url": "https://pokeapi.co/api/v2/pokemon/181/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "elekid",
+            "url": "https://pokeapi.co/api/v2/pokemon/239/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "electrike",
+            "url": "https://pokeapi.co/api/v2/pokemon/309/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "manectric",
+            "url": "https://pokeapi.co/api/v2/pokemon/310/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "emolga",
+            "url": "https://pokeapi.co/api/v2/pokemon/587/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "stunfisk",
+            "url": "https://pokeapi.co/api/v2/pokemon/618/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "toxel",
+            "url": "https://pokeapi.co/api/v2/pokemon/848/"
+        },
+        "slot": 2
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "arctozolt",
+            "url": "https://pokeapi.co/api/v2/pokemon/881/"
+        },
+        "slot": 2
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-rock-star",
+            "url": "https://pokeapi.co/api/v2/pokemon/10080/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-belle",
+            "url": "https://pokeapi.co/api/v2/pokemon/10081/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-pop-star",
+            "url": "https://pokeapi.co/api/v2/pokemon/10082/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-phd",
+            "url": "https://pokeapi.co/api/v2/pokemon/10083/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-libre",
+            "url": "https://pokeapi.co/api/v2/pokemon/10084/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-cosplay",
+            "url": "https://pokeapi.co/api/v2/pokemon/10085/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-original-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10094/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-hoenn-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10095/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-sinnoh-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10096/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-unova-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10097/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-kalos-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10098/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-alola-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10099/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-partner-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10148/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-starter",
+            "url": "https://pokeapi.co/api/v2/pokemon/10158/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-world-cap",
+            "url": "https://pokeapi.co/api/v2/pokemon/10160/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "pikachu-gmax",
+            "url": "https://pokeapi.co/api/v2/pokemon/10199/"
+        },
+        "slot": 1
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "voltorb-hisui",
+            "url": "https://pokeapi.co/api/v2/pokemon/10231/"
+        },
+        "slot": 2
+    },
+    {
+        "is_hidden": false,
+        "pokemon": {
+            "name": "electrode-hisui",
+            "url": "https://pokeapi.co/api/v2/pokemon/10232/"
+        },
+        "slot": 2
+    }
+]

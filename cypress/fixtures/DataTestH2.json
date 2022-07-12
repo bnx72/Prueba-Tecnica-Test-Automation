@@ -1,0 +1,13 @@
+[{
+  "testCase":  "Search Existing move",
+  "moves":    "Acid",
+  "Accuracy": "100%",
+  "PP":       30
+},
+{
+  "testCase":  "Search Existing move",
+  "moves":    "Acid Armor",
+  "Accuracy": "",
+  "PP":       20
+}
+]
