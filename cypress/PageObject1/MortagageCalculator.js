@@ -23,11 +23,11 @@ SelectDownPayment(){
     this.element.BtnCoverage().click();
 } 
 
-EnterCoverage(Coverage){
+EnterdownPaymentPercent(Coverage){
     this.element.ValueCovege().clear().type(Coverage)
 }
 SelectYears(Years){
-this.element.ListYears()
+this.element.ListYears().select(Years).should('have.value', Years)
 }
 EnterRate(rate){
     this.element.rate().clear().type(rate)
@@ -45,10 +45,12 @@ ValidatePayment(ExpectedPayment){
     this.element.TotalPayment().should('contain', ExpectedPayment)
 }
 
-CalculateExpected(years, rate1, homeprice){
+CalculateExpected(years, rate1, homeprice, coverage){
+    
     var rate = (rate1/100)/12   
-    var cuota = (homeprice-(homeprice*0.20))*((rate*(Math.pow((1+rate),years)))/((Math.pow((1+rate),years))-1));
+    var cuota = (homeprice-(homeprice*(coverage/100)))*((rate*(Math.pow((1+rate),years)))/((Math.pow((1+rate),years))-1));
     return cuota.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    
 }
 }
 module.exports = new MortgageCalculator()

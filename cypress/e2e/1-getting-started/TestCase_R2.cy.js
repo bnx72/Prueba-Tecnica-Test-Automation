@@ -10,17 +10,17 @@ DTR2.forEach(test => {
       
 it(test.TestCase, ()=>{
    
-        const Paymentexpecte = MortgageCalculator.CalculateExpected(test.Years, test.Rate, test.HomePrice)
+        const Paymentexpecte = MortgageCalculator.CalculateExpected(test.Years, test.Rate, test.HomePrice, test.downPaymentPercent)
         cy.log(Paymentexpecte)
         MortgageCalculator.EnterHomePrice(test.HomePrice)
         MortgageCalculator.SelectDownPayment()
-        MortgageCalculator.EnterCoverage(test.coverage)
+        MortgageCalculator.EnterdownPaymentPercent(test.downPaymentPercent)
+        MortgageCalculator.SelectYears(test.Years)
         MortgageCalculator.EnterRate(test.Rate)
         MortgageCalculator.EnterZcode(test.ZCode)
         MortgageCalculator.SelectIncludeTax();
         MortgageCalculator.ClicInCalculate()
-        cy.get('.phfc-b-TypeDisplayFive > span').contains(Paymentexpecte)
-        //MortgageCalculator.ValidatePayment(Paymentexpecte)
+        MortgageCalculator.ValidatePayment(Paymentexpecte)
 
             
       })
