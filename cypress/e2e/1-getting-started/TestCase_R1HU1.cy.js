@@ -13,7 +13,7 @@ describe('Search Pokemon in the option pokemon', () => {
 
     it(test.testCase+'-'+test.Pokemon, ()=>{
 
-      HomePokemonPage.SearchPokemon(test.Pokemon)
+      HomePokemonPage.Search(test.Pokemon)
       HomePokemonPage.SelectPokemon();    
       PokemonProfile.ValidateStatsHD(test.HP)
       PokemonProfile.ValidateStatsAttack(test.Attack)
@@ -27,7 +27,7 @@ describe('Search Pokemon in the option pokemon', () => {
   } )
   it('Search for a non-existing Pokemon - changoleon', ()=>{
 
-    HomePokemonPage.SearchPokemon('changoleon')
+    HomePokemonPage.Search('changoleon')
     HomePokemonPage.VerifyMsjNoExist()
 
   })
@@ -44,7 +44,7 @@ describe('Search Pokemon in the option ‘Search’', () => {
 
     it(test.testCase+'-'+test.Pokemon, ()=>{
 
-      HomePokemonPage.SearchPokemon(test.Pokemon)
+      HomePokemonPage.Search(test.Pokemon)
       HomePokemonPage.SelectPokemon();    
       PokemonProfile.ValidateStatsHD(test.HP)
       PokemonProfile.ValidateStatsAttack(test.Attack)
@@ -58,7 +58,7 @@ describe('Search Pokemon in the option ‘Search’', () => {
   } )
   it('Search for a non-existing Pokemon - Changoleon', ()=>{
 
-    HomePokemonPage.SearchPokemon('changoleon')
+    HomePokemonPage.Search('changoleon')
     HomePokemonPage.VerifyMsjNoExist()
 
 
