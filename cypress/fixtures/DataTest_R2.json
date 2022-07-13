@@ -1,0 +1,49 @@
+[{
+  "TestCase": "Calculate monthly payment with house price > 1",
+  "Years": "360",
+  "HomePrice": "1000",
+  "downPaymentPercent": 20,
+  "Rate": 5,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate monthly payment with house price > 1",
+  "Years": "360",
+  "HomePrice": "500000",
+  "downPaymentPercent": 20,
+  "Rate": 5,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate monthly payment entering down payment > 1",
+  "Years": "360",
+  "HomePrice": "500000",
+  "downPaymentPercent": 20,
+  "Rate": 5,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate monthly payment entering down payment > 1%",
+  "Years": "360",
+  "HomePrice": "500000",
+  "downPaymentPercent": 30,
+  "Rate": 5,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate monthly payment entering down payment = 30 years",
+  "Years": "360",
+  "HomePrice": "500000",
+  "downPaymentPercent": 30,
+  "Rate": 5,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate monthly payment entering down payment = 10 years",
+  "Years": "120",
+  "HomePrice": "500000",
+  "downPaymentPercent": 30,
+  "Rate": 5,
+  "ZCode": 20146 
+}
+]

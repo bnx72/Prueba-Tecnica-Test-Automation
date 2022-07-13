@@ -1,0 +1,10 @@
+[
+  {
+    "TestCase": "Calculate monthly payment entering down payment = 10 years",
+    "Years": "120",
+    "HomePrice": "500000",
+    "downPaymentPercent": 30,
+    "Rate": 5,
+    "ZCode": 20146 
+  }
+]
