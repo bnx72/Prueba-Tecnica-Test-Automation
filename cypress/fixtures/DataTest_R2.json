@@ -1,0 +1,19 @@
+[{
+  "TestCase": "Calculate case example",
+  "Years": 360,
+  "HomePrice": "250000",
+  "coverage": 20,
+  "LoanTerm": "30 Years",
+  "Rate": 4,
+  "ZCode": 20146 
+},
+{
+  "TestCase": "Calculate case example",
+  "Years": 360,
+  "HomePrice": "500000",
+  "coverage": 20,
+  "LoanTerm": "30 Years",
+  "Rate": 5,
+  "ZCode": 20146 
+}
+]
